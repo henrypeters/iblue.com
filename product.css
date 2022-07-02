@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar-section */
+.navbar{
+    background-image: linear-gradient(45deg, #2c8dae, #2c8dae);
+    padding: 0 !important;
+}
+ul{
+    margin-left: 900px;
+}
+
+#nav-bar{
+    position:sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-left: 80px;  
+}
+
+.navbar-nav li{
+    padding: 0 1px;
+}
+
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+}
+
+.link{
+    color: #151157;
+}
+
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+
+nav ul{
+    margin-left: 600px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin:0px 30px; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.product{
+   color: rgba(141, 192, 189, 0.975);
+}
+
+h1{
+    font-size: 39px;
+}
+
+/* Banner-section */
+#banner{
+    background-image: linear-gradient(to bottom, #2c8dae,#151157);
+    color: #fff;
+    padding-top: 5%;    
+    padding: 4%;
+}
+
+#banner a{
+    color: #fff;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.rectangle1,
+.rectangle2{
+    background: white;
+    background: linear-gradient(
+        to right bottom, 
+        rgba(255, 255, 255, 0.1), 
+        rgba(255, 255, 255, 0.3)
+    );
+    height: 7rem;
+    width: 7rem;
+    position: absolute;
+    border-radius: 8%;
+    opacity: 0.5;
+}
+
+.rectangle1{
+  top: 20%;
+  right: 8%;
+}
+.rectangle2{
+    bottom: 37%;
+    left: 4%;
+    height: 3rem;
+    width: 3rem;
+}
+
+.center{
+    margin-left: 4%;
+    margin-top: 10%;
+}
+
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    text-transform: uppercase;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.read.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.read .btn-outline{
+    background-color: transparent;
+    border: 1px #fff;
+}
+
+.banner-img{
+    height: 270px;
+    width: 270px;
+    margin-top: 50px;
+}
+
+.size-img{
+    height: 270px;
+    width: 271px;
+    margin-top: 50px;
+}
+
+/* services section */
+#services{
+    padding: 120px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.service-img{
+    width: 140px;
+    margin-top: 20px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.services{
+    padding: 20px;
+}
+
+.services h4{
+    padding: 4px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.title::before{
+    content: '';
+    background-image: linear-gradient(to bottom, #63bad7,#151157);
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title::after{
+    content: '';
+    background-image: linear-gradient(to bottom, #63bad7,#151157);
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+#services .btn-primary{
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #63bad7,#151157);
+}
+
+/* About us */
+#about-us{
+    /* background: #f8f9fa; */
+    background: #eaecf7;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.img-fluid{
+    margin-left: 110px;
+}
+
+.about-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+.different{
+    margin-left: 1px;
+}
+
+#about-us ul li{
+    margin: 10px 0;
+}
+
+#about-us ul{
+    margin-left: 20px;
+}
+
+/* List section */
+#list{
+    padding-bottom: 70px;
+    padding-top: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.list-img{
+    width: 264px;
+    height: 250px;
+}
+
+.product-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+.product-text{
+    max-width: 500px;
+}
+
+/* galleries section */
+#galleries{
+    background: #eaecf7;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.galleries img{
+    height: 210px;
+    width: 230px;
+    border-radius: 20%;
+    padding: 30px;
+    transition: all 2s;
+}
+
+.galleries img:hover{
+    transform: scale(1.5);
+}
+
+.details{
+    display: inline-block;
+    font-size: 15px;
+}
+
+
+/* location section */
+#location{
+    padding-bottom: 50px;
+    padding-top: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.where{
+    margin: 10px;
+    height: 370px;
+    width: 370px;
+    border-radius: 13px;
+}
+
+.location-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 23%;
+    margin-right: 10px;
+}
+
+.location-text{
+    margin-left: 100px;
+    margin-top: 12px;
+    max-width: 500px;
+    margin: auto;
+}
+
+/* testimoniials section */
+#testimonials{
+    margin: 100px 0;
+    background: #eaecf7;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.testimonials{
+    border-left: 4px solid #344ba7;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.testimonials img{
+    height: 60px;
+    width: 60px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.comments{
+    border-left: 4px solid #344ba7;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.comments img{
+    height: 70px;
+    width: 60px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.user-detail{
+    display: inline-block;
+    font-size: 12px;
+}
+
+/* social media section */
+#social-media{
+    padding: 50px 0;
+    padding-bottom: 60px;
+}
+
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-icons img{
+    width: 60px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+
+/* footer section */
+#footer{
+    background-image: linear-gradient(to bottom, #2c8dae, #151157);
+    color: #fff;
+}
+
+.footer-box{
+    padding: 30px;
+}
+
+.footer-box img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.footer-box .fa{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #2c8dae, #151157);
+}
+
+.footer-box .form-control{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+.footer-box .btn-primary{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 10;
+    margin-top:20px;
+    background-image: linear-gradient(to bottom, #2c8dae, #151157);
+    letter-spacing: 3px;
+}
+
+hr{
+    background-color: #fff;
+}
+
+.copyright{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
